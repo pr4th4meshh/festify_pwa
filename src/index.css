@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Almarai", sans-serif;
+  font-family: "DM Sans", sans-serif;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  font-size: inherit;
+  left: 10px;
+  z-index: 2;
+  color: blueviolet;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  right: 10px;
+  z-index: 2;
+  color: blueviolet;
+}
+
+.ant-carousel .slick-slide {
+  padding: 0 8px; /* Adjust this padding to control the visible portions */
+}
+
+.custom-slide {
+  width: calc(100% / 3); /* Set the width to one-third of the container */
+}
